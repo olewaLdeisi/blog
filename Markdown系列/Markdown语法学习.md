@@ -265,10 +265,10 @@ class A:
 ### 2.4.1 行内式
 markdown语法:
 ```markdown
-![GitHub](../Me.jpg "Me")
+![GitHub](../Me.jpg)
 ```
 显示结果:  
-![GitHub](../Me.jpg "Me")
+![GitHub{100*100}](../Me.jpg)
 ### 2.4.2 参考式
 markdown语法:
 ```markdown
