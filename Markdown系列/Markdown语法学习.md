@@ -268,7 +268,7 @@ markdown语法:
 ![GitHub](../Me.jpg)
 ```
 显示结果:  
-![GitHub{100*100}](../Me.jpg)
+![GitHub](../Me.jpg)
 ### 2.4.2 参考式
 markdown语法:
 ```markdown
