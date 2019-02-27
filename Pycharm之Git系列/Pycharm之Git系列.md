@@ -13,6 +13,12 @@ Version Control -> Github` :
 ![3_配置Git](./imgs/3_配置Git.png)  
 
 ## 三、 从Github导入项目到本地
+假如你打算克隆别人的项目，或者是参与别人的项目，亦或者是下载自己Github
+仓库里的项目，需要复制下图1的URL  
+>说明: 如果是参加别人的项目，并贡献你自己的代码，需要fork(下图2的位置)
+一下别人的项目，然后在你自己的Github仓库就能看到一个属于你自己的项目副本
+
+![11_克隆](./imgs/11_克隆.png)  
 &emsp;1.选择菜单栏的`VCS -> Checkout from Version Control`，
 选择 `Git`  
 ![4_从Git检出项目](./imgs/4_从Git检出项目.png)  
@@ -20,8 +26,12 @@ Version Control -> Github` :
 填上保存到本地的路径，然后点击Clone，克隆好了就选择打开  
 ![5_克隆远程仓库](./imgs/5_克隆远程仓库.png)  
 
-## 四、 如何提交本地修改，更新到Github
-&emsp;1. 在Pycharm中修改过的文件会显示蓝色，新建的文件会显示红色  
+## 四、 将本地创建的项目上传到Github上
+&emsp;选择菜单栏`VCS -> Import into Version Control -> Share Project on Github`就可以了  
+![10_本地项目上传到Github](./imgs/10_本地项目上传到Github.png)
+
+## 五、 如何提交本地修改，更新到Github
+&emsp;1. 在Pycharm中修改过的文件会显示蓝色，新建的文件会显示红色(没有Add操作之前)或绿色(Add操作之后)  
 ![6_文件颜色显示](./imgs/6_文件颜色显示.png)  
 &emsp;2. 鼠标右键项目目录，先选择 `Git -> Add`，再选择 `Git -> Commit Directory...`  
 > 说明: 如果读者是参与别人的项目，在Commit之前要先Pull，作用是先更新本地的代码，防止你克隆项目
@@ -36,6 +46,10 @@ Version Control -> Github` :
 如果遇到`OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443`的错误，  
 一般是你开启了代理，关掉了就好
 
+## 六、 Pull Request
+这部分操作的作用是，在你贡献了自己的代码后，发送给原项目的管理者，让其审核是否合并你贡献的代码  
+![12_Pull_Request](./imgs/12_Pull_Request.png)
+<br/>
 本文完，敬请期待下一篇 [Pycharm之Git分支管理]()
 
 
